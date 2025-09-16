@@ -1,0 +1,1 @@
+export const sortUtils = { by: (key, dir="asc") => (a,b)=> (a[key]<b[key] ? (dir==="asc"?-1:1) : a[key]>b[key] ? (dir==="asc"?1:-1) : 0) };
